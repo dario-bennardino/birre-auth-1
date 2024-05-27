@@ -1,0 +1,19 @@
+.aside {
+    width: 200px;
+    flex-shrink: 0;
+    background-color: #212529;
+    color: white;
+    ul {
+        li {
+            list-style: none;
+            margin-bottom: 20px;
+            a {
+                text-decoration: none;
+                color: white;
+                i {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}

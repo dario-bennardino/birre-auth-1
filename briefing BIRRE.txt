@@ -1,0 +1,16 @@
+briefing BIRRE
+
+DATI:
+CATEGORIE :lager, stout, pilsner, ale.
+2 utenti, con tracciamento delle modifiche.
+manca la gradazione alcolica mettere fake.
+Abbiamo le stout e le ale.(mancano le altre)
+
+RICHIESTE:
+-ricerca per nome.
+-la possibilità di visualizzare le birre in magazzino e quelle esaurite.
+-possibilità di aggiungere o togliere prodotti in magazzino.
+-CRUD delle birre (eliminazione?).
+-CRUD delle categorie.
+-Ricerca per gradazione alcolica.
+-Tracciamento delle modifiche con Utente dome indicatore.

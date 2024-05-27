@@ -1,0 +1,22 @@
+DATABASE IN BIRRE
+
+-TABELLA Users. MANY TO ONE CON BEERS.
+
+-TABELLA Beers.
+[id, prezzo, nome, rating(average), immagine, slug] 
+(manca la gradazione alcolica e la disponibilità in magazzino)
+ONE TO MANY CON CATEGORIES.
+ONE TO MANY CON USERS.
+
+-TABELLA Categories.[id, nome , slug] MANY TO ONE CON BEERS
+
+-TABELLA Logs.[id, description, id_user, id_beer]
+
+VIEWS ADMIN
+
+BIRRE:
+-index delle birre (lista delle birre con i bottoni della crud, ricerca per nome, gradazione alcolica, filtro presenti o no in magazzino, possibilità di incrementare o decrementare il numero nel magazzino ).
+- create delle birre e edit della birra.
+
+CATEGORIE:
+-index con crud in una pagina. 
